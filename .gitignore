@@ -8,6 +8,8 @@
 # testing
 /coverage
 
+gh-pages.pub
+gh-pages
 # next.js
 /.next/
 /out/
