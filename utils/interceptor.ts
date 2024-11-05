@@ -3,13 +3,13 @@ import axios from 'axios';
 
 // Create an Axios instance
 export const axiosInstance = axios.create({
-    baseURL: 'http://localhost:8020', 
+    baseURL: 'https://edunext-challenge.onrender.com', 
     timeout: 1000,
     headers: { 'Content-Type': 'application/json' }
 });
 
 export const axiosInstanceMicroService = axios.create({
-    baseURL: 'http://localhost:8010/api/v1', 
+    baseURL: 'https://edunext-microservice.onrender.com/api/v1', 
     timeout: 1000,
     headers: { 'Content-Type': 'application/json' }
 });
