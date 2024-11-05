@@ -26,6 +26,7 @@ const enableFeatures = async (newFeatures: object) => {
       feature: feature,
     });
     console.log(response);
+    window.location.reload();
   }
 };
 
